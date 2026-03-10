@@ -1,12 +1,36 @@
-# React + Vite
+AI Image Processing for Garbage Detection
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AI Image Processing for Garbage Detection is a full-stack application that detects garbage in images using a deep learning model.
+The system allows users to upload images, processes them using an AI model, and returns detection results highlighting garbage objects.
 
-Currently, two official plugins are available:
+This project demonstrates how AI, backend APIs, and a frontend interface can work together in a real-world application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+Installation and Setup
+1. Clone the repository
+git clone https://github.com/AyushPanchal21/ai-image-processing-for-garbage-detection.git
+cd ai-image-processing-for-garbage-detection
+2. Install frontend dependencies
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Run the frontend:
+
+npm run dev
+3. Setup Backend
+cd Backend
+npm install
+node server.js
+4. Setup AI Service
+
+Create a Python virtual environment:
+
+python -m venv venv
+
+Activate the environment and install dependencies:
+
+pip install -r requirements.txt
+
+Run the AI service:
+
+python app.py
