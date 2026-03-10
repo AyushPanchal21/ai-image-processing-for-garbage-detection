@@ -1,5 +1,0 @@
-
-
-const SUPABSE_SERVICE = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ3bHZ3ZG5ucWJwdXdlZHFybnVjIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2ODg3MjY0NCwiZXhwIjoyMDg0NDQ4NjQ0fQ.Tdqa2ban31IwMzcx1K4xx8TP2C2mvZneu0k-aenCx9s"
-
-export default SUPABSE_SERVICE;
